@@ -1,0 +1,81 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+sans-serif ;
+      background-color: bisque;
+      margin: 0;
+      padding: 0;
+ }
+header {
+    background-color: blanchedalmond;
+    color: blanchedalmond;
+    padding: 20px 0;
+    text-align: center;
+}
+.judul {
+    font-size: 5rem;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+nav {
+    background-color: brown;
+    padding: 10px 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav a:hover {
+     background-color: #666;
+}
+main {
+    padding: 20px
+}
+.pizza-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pizza-item {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+    text-align: center;
+}
+.pizza-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.pizza-item h3 {
+    margin: 0;
+}
+.pizza-item p {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
